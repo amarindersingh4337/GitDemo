@@ -46,6 +46,8 @@ public class StandAloneTest extends BaseTests{
 //		String confirmMessage = confirmPage.returnConfirmationMessage();
 //		Assert.assertTrue(confirmMessage.equalsIgnoreCase("Thankyou for the order."));
 //		driver.close();
+		//change
+				System.out.println("Change1");
 	}
 	
 	@Test(dependsOnMethods= {"SubmitOrder"})
